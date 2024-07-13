@@ -1,19 +1,9 @@
-import Counter from "./components/Counter";
-import Header from "./components/Header";
-import Main from "./components/Main";
+import Arrey from "./components/Arrey";
+import NavLinks from "./components/NavLinks";
 
 function App() {
-  const isLogin = false;
-  const user = {
-    spec0ffers: "You have -20% sale fof all laptop",
-  };
-  return (
-    <>
-      <Header isLogin={isLogin} />;
-      <Main isLogin={isLogin} user={isLogin} />
-      <Counter />
-    </>
-  );
+  return <Array />;
+  return <NavLinks />;
 }
 
 export default App;
